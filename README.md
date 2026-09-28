@@ -27,13 +27,13 @@ The Student Marks Calculator is a simple Java program that takes a student's nam
 4. Compile the program:
 
    ```bash
-   javac StudentMarks.java
+   javac StudentResult.java
    ```
 
 5. Run the program:
 
    ```bash
-   java StudentMarks
+   java StudentResult
    ```
 
 ## Performance Criteria
