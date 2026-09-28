@@ -41,7 +41,7 @@ class StudentResult {
         }else {
             result = "Fail";
         }
-        System.out.println("-----STUDENT DETAILS-----");
+        System.out.println("     STUDENT DETAILS     ");
         System.out.println("Student Name:" +name);
         System.out.println("Total marks:" +total + "/500");
         System.out.println("Percentage:" +percentage + "%");
