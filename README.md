@@ -1,4 +1,4 @@
-# Student Marks Calculator
+# Student Result Calculator
 The Student Marks Calculator is a simple Java program that takes a student's name and marks in five subjects as input. It calculates the total marks, percentage, performance, and final result (Pass or Fail).
 
 ## Features
