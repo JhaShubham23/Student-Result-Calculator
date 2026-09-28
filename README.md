@@ -20,7 +20,7 @@ The Student Marks Calculator is a simple Java program that takes a student's nam
 
 1. Install Java JDK on your computer.
 
-2. Save the code in a file named `StudentMarks.java`.
+2. Save the code in a file named `StudentResult.java`.
 
 3. Open the terminal in the folder where the file is saved.
 
