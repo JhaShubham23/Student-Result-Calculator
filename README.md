@@ -1,89 +1,100 @@
 # Student Result Calculator
-The Student Marks Calculator is a simple Java program that takes a student's name and marks in five subjects as input. It calculates the total marks, percentage, performance, and final result (Pass or Fail).
+
+A simple **Java-based Student Result Calculator** that takes a student's name and marks of five subjects, calculates the total marks and percentage, and displays the student's performance and pass/fail result.
 
 ## Features
 
-* Takes the student's name as input.
-* Accepts marks for five subjects.
-* Calculates total marks out of 500.
-* Calculates the overall percentage.
-* Displays performance based on percentage.
-* Shows the final Pass or Fail result.
-
-## Technologies Used
-
-* Java
-* Scanner Class
-* Conditional Statements (`if-else if-else`)
-
-## How to Run the Project
-
-1. Install Java JDK on your computer.
-
-2. Save the code in a file named `StudentResult.java`.
-
-3. Open the terminal in the folder where the file is saved.
-
-4. Compile the program:
-
-   ```bash
-   javac StudentResult.java
-   ```
-
-5. Run the program:
-
-   ```bash
-   java StudentResult
-   ```
+* Enter student name
+* Enter marks for 5 subjects
+* Calculate total marks
+* Calculate percentage
+* Check pass/fail status
+* Display performance
+* If any subject has marks below 40, the student is marked **Fail** and performance is shown as **Very Bad**
 
 ## Performance Criteria
 
-| Percentage   | Performance |
-| ------------ | ----------- |
-| Above 90%    | Outstanding |
-| Above 80%    | Excellent   |
-| Above 70%    | Very Good   |
-| Above 60%    | Good        |
-| Above 50%    | Not Bad     |
-| Above 40%    | Bad         |
-| 40% or below | Fail        |
+| Percentage           | Performance     |
+| -------------------- | --------------- |
+| 90% and above        | Outstanding     |
+| 80% - 89%            | Excellent       |
+| 70% - 79%            | Very Good       |
+| 60% - 69%            | Good            |
+| 50% - 59%            | Not Bad         |
+| Below 50%            | Average         |
+| Any subject below 40 | Very Bad / Fail |
 
-**Note:** In the current code, the result is Pass only when the overall percentage is above 40%. Individual subject marks are not checked separately.
+## How It Works
 
-## Sample Output
+1. Enter the student's name.
+2. Enter marks for five subjects.
+3. The program calculates the total marks.
+4. The percentage is calculated.
+5. The program checks whether every subject has at least 40 marks.
+6. If any subject is below 40, the result is **Fail**.
+7. If all subjects are 40 or above, performance is calculated according to the percentage.
+8. The final result is displayed.
+
+## Example Output
 
 ```text
 Enter Student Name
-Rahul
+Shubham
+
 Enter First Subject Marks
 85
 Enter Second Subject Marks
-90
+78
 Enter Third Subject Marks
-80
-Enter Fourth Subject Marks
-75
-Enter Fifth Subject Marks
 90
+Enter Fourth Subject Marks
+82
+Enter Fifth Subject Marks
+75
 
------STUDENT DETAILS-----
-Student Name:Rahul
-Total marks:420.0/500
-Percentage:84.0%
+----- STUDENT DETAILS -----
+Student Name: Shubham
+Total Marks: 410.0/500
+Percentage: 82.0%
 Performance: Excellent
 Result: Pass
 ```
 
-## Learning Objectives
+## Technologies Used
 
-* Understanding Java variables and data types.
-* Taking user input using the Scanner class.
-* Performing arithmetic calculations.
-* Using conditional statements.
-* Displaying formatted student results.
+* Java
+* Scanner
+* Conditional Statements
+* Variables
+* Arithmetic Operators
+* Logical Operators
+
+## How to Run
+
+### 1. Save the file
+
+Save the Java code as:
+
+```text
+StudentResult.java
+```
+
+### 2. Compile the program
+
+```bash
+javac StudentResult.java
+```
+
+### 3. Run the program
+
+```bash
+java StudentResult
+```
 
 ## Author
 
-#### SHUBHAM KUMAR JHA
+**Shubham Kumar Jha**
 
-This project is created for educational and learning purposes.
+## Project Type
+
+Beginner Java Project
